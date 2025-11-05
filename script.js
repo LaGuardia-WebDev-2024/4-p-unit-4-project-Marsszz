@@ -3,11 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const heroSection = document.getElementById('hero-section');
     const contentSection = document.getElementById('content-section');
     const finalSection = document.getElementById('final-section');
+    const nextSection = document.getElementById('next-section');
+
 
     const sections = [
         { element: heroSection, className: 'blue-bg' },
         { element: contentSection, className: 'green-bg' },
         { element: finalSection, className: 'red-bg' }
+        { element: nextSection, className: 'yellow-bg' }
     ];
 
     function updateBackground() {

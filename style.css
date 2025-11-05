@@ -22,10 +22,15 @@ body {
 
 .green-bg {
     background-size:cover;
-    background-image:url(https://64.media.tumblr.com/c0aac24d8208398851171e2f6a219527/b14ba849b01fa439-7d/s540x810/f6e1e6c7331378b3b89f4829ab2d629edf6d4229.gif)
+    background-image:url(https://i.imgur.com/l0sddar.gif)
 }
 
 .red-bg {
     background-size:cover;
-    background-image:url(https://i.pinimg.com/originals/3f/85/0c/3f850cf9ebb7730b4ce75fadd310877b.gif)
+    background-image:url(https://giffiles.alphacoders.com/104/104761.gif)
+}
+
+.yellow-bg {
+    background-size:cover;
+    background-image:url(https://64.media.tumblr.com/8b92fc55d62d626a51fc376bdad2f480/tumblr_ppzapu00FY1vfh4hs_540.gif)
 }
