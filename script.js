@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const contentSection = document.getElementById('content-section');
     const finalSection = document.getElementById('final-section');
     const nextSection = document.getElementById('next-section');
+    const hiSection = document.getElementById('hi-section');
+     const helloSection = document.getElementById('hello-section');
+      const nopeSection = document.getElementById('nope-section');
 
 
     const sections = [
@@ -11,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { element: contentSection, className: 'green-bg' },
         { element: finalSection, className: 'red-bg' }
         { element: nextSection, className: 'yellow-bg' }
+        { element: hiSection, className: 'orange-bg' }
+        { element: helloSection, className: 'purple-bg' }
+        { element: nopeSection, className: 'grey-bg' }
     ];
 
     function updateBackground() {
