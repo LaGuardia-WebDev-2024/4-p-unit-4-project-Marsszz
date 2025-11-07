@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hiSection = document.getElementById('hi-section');
      const helloSection = document.getElementById('hello-section');
       const nopeSection = document.getElementById('nope-section');
+      const yesSection = document.getElementById('yes-section');
 
 
     const sections = [
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { element: hiSection, className: 'orange-bg' }
         { element: helloSection, className: 'purple-bg' }
         { element: nopeSection, className: 'grey-bg' }
+         { element: nopeSection, className: 'cool-bg' }
     ];
 
     function updateBackground() {
