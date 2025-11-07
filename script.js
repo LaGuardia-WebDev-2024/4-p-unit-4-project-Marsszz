@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
      const helloSection = document.getElementById('hello-section');
       const nopeSection = document.getElementById('nope-section');
       const yesSection = document.getElementById('yes-section');
+       const tadaSection = document.getElementById('tada-section');
+       const boySection = document.getElementById('boy-section');
+       const cloudSection = document.getElementById('cloud-section');
+
 
 
     const sections = [
@@ -19,6 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { element: helloSection, className: 'purple-bg' }
         { element: nopeSection, className: 'grey-bg' }
          { element: nopeSection, className: 'cool-bg' }
+          { element: tadaSection, className: 'amazing-bg' }
+          { element: boySection, className: 'heron-bg' }
+          { element: cloudSection, className: 'ranking-bg' }
     ];
 
     function updateBackground() {
